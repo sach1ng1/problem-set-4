@@ -18,7 +18,7 @@ def catplot_non_felony(felony_charge_pred_universe):
     plt.savefig("./data/part4_plots/catplot_nonfelony.png")
 
 # In a print statement, answer the following question: What might explain the difference between the plots?
-    print("Well it seems that it for the first bar plot there is a higher prediction for felony rearrest whereas for non-rearrest plot it seems to be not as high a prediction for non felony rearrest as there is in comparison to felony re-arrest. Therefore it seems based on the results of the prediction we can see that a felony rearrest is more likely than nonfelony-rearrest.")
+    print("Well it seems that for the first bar plot there is a higher prediction for felony rearrest whereas for non-rearrest plot it seems to be not as high a prediction for non felony rearrest as there is in comparison to felony re-arrest. Therefore it seems based on the results of the prediction we can see that a felony rearrest is more likely than nonfelony-rearrest.")
 
 # 3. Repeat the plot from 1, but hue by whether the person actually got rearrested for a felony crime
 def catplot_felony_hue(felony_charge_pred_universe):
